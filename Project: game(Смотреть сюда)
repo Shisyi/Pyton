@@ -90,6 +90,10 @@ def keyPressed():
             exit()
     if key=='ESKAPE':
         exit(0)
+    if x1<50:
+        x1=x1+speed
+    if x1>950:
+        x1=x1-speed
     
 
     
